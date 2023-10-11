@@ -1,5 +1,5 @@
 """
-path: monolithic/app/db/models/base.py
+path: app/db/models/base.py
 """
 
 from enum import Enum as PyEnum

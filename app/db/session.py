@@ -3,10 +3,11 @@ path: monolithic/app/db/session.py
 
 """
 
-from app.core.config import DATABASE_URL
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import DeclarativeMeta, declarative_base
 from sqlalchemy.orm import sessionmaker
+
+from app.core.config import DATABASE_URL
 
 # Intitialize database engine
 engine = create_engine(DATABASE_URL)
