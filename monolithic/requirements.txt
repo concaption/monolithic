@@ -1,0 +1,17 @@
+# general
+black==23.9.0
+click==8.1.7
+pytest==7.4.2
+pytest-cov==4.1.0
+pylint==2.17.5
+nbval==0.10.0
+pre-commit==3.4.0
+
+# specific
+fastapi==0.68.0
+uvicorn==0.15.0
+sqlalchemy==1.4.22
+pydantic==1.8.2
+alembic==1.7.3
+cryptography==35.0.0
+psycopg2-binary==2.9.1
